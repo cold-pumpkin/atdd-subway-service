@@ -57,7 +57,6 @@ This project is [MIT](https://github.com/next-step/atdd-subway-service/blob/mast
 
 ## 🚀 1단계 - 인수 테스트 기반 리팩터링
 
----
 ### 인수 테스트 기반 리팩터링
 1. Domain으로 옮길 로직을 찾기
    * 스프링 빈을 사용하는 객체와 의존하는 로직을 제외하고 그 외 로직을 도메인으로 이동시킨다.
@@ -76,7 +75,7 @@ This project is [MIT](https://github.com/next-step/atdd-subway-service/blob/mast
 * 도메인 테스트 코드 작성
 
 ## 🚀 2단계 - 경로 조회 기능
-***
+
 ### 요구사항
 * 최단 경로 조회 기능 구현하기
   * 최단 경로 라이브러리(`jgrapht`) 활용하여 최단거리 조회 기능을 구현한다.
@@ -93,7 +92,7 @@ This project is [MIT](https://github.com/next-step/atdd-subway-service/blob/mast
 * 최단경로 조회 인수 테스트 코드 작성
 
 ## 🚀 3단계 - 인증을 통한 기능 구현
-***
+
 ### 요구사항
 * 토큰 발급 기능(로그인) 인수 테스트
   * 토큰 발급(로그인)을 검증하는 인수 테스트(`AuthAcceptanceTest`)를 작성한다.
@@ -112,7 +111,7 @@ This project is [MIT](https://github.com/next-step/atdd-subway-service/blob/mast
   * 인증을 포함하여 전체 ATDD 사이클을 경험할 수 있도록 기능을 구현한다.
 
 ## 🚀 4단계 - 요금 조회
-***
+
 ### 요구사항
 * 경로 조회 시 거리 기준 요금 정보 포함하기
   ```
